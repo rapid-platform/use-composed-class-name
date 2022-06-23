@@ -1,0 +1,19 @@
+{
+  "name": "@rapid-platform/use-composed-class-name",
+  "version": "1.0.0",
+  "exports": "./lib/index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": "Tyler Watson <tyler@rapidplatform.com.au>",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "node": ">=14.16",
+  "devDependencies": {
+    "@types/react": "18.0.14",
+    "typescript": "^4.7.4"
+  }
+}
