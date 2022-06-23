@@ -35,4 +35,4 @@ import React from 'react';
  *
  * @returns {string} CSS generated class names
  */
-export declare function useComposedClassName(classNameGenerator: string[] | (() => Generator<string, void, unknown>), deps?: React.DependencyList): string;
+export default function useComposedClassName(classNameGenerator: string[] | (() => Generator<string, void, unknown>), deps?: React.DependencyList): string;

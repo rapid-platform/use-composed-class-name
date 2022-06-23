@@ -36,7 +36,7 @@ import React, { useMemo } from 'react';
  * 
  * @returns {string} CSS generated class names
  */
-export function useComposedClassName(
+export default function useComposedClassName(
   classNameGenerator: string[] | (() => Generator<string, void, unknown>),
   deps?: React.DependencyList,
 ): string {

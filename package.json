@@ -1,9 +1,8 @@
 {
   "name": "@rapid-platform/use-composed-class-name",
-  "version": "1.0.0",
-  "exports": "./lib/index.js",
+  "version": "1.1.0",
+  "main": "./esm/index.js",
   "license": "MIT",
-  "type": "module",
   "author": "Tyler Watson <tyler@rapidplatform.com.au>",
   "repository": "https://github.com/rapid-platform/use-composed-class-name.git",
   "scripts": {

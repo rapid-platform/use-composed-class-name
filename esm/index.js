@@ -35,7 +35,7 @@ import { useMemo } from 'react';
  *
  * @returns {string} CSS generated class names
  */
-export function useComposedClassName(classNameGenerator, deps) {
+export default function useComposedClassName(classNameGenerator, deps) {
     const generator = Array.isArray(classNameGenerator)
         ? classNameGenerator[Symbol.iterator]
         : classNameGenerator;
