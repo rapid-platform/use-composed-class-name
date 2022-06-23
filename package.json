@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "author": "Tyler Watson <tyler@rapidplatform.com.au>",
+  "repository": "https://github.com/rapid-platform/use-composed-class-name.git",
   "scripts": {
     "prepublish": "tsc"
   },
