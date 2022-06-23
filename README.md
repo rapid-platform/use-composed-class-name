@@ -15,7 +15,7 @@ JS Generator function
 // returns "btn btn-primary" for non-active states and "btn btn-primary btn-active"
 // for active states
 const [active, setActive] = useState(false);
-const className = useComposedClassNames(function*() {
+const className = useComposedClassName(function*() {
     yield 'btn';
     yield 'btn-primary';
     if (active) {

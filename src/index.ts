@@ -12,7 +12,7 @@ import React, { useMemo } from 'react';
  * // returns "btn btn-primary" for non-active states and "btn btn-primary btn-active"
  * // for active states
  * const [active, setActive] = useState(false);
- * const className = useComposedClassNames(function*() {
+ * const className = useComposedClassName(function*() {
  *  yield 'btn';
  *  yield 'btn-primary';
  *
@@ -55,6 +55,6 @@ export function useComposedClassName(
 
     return classNames.join(' ');
   }, deps);
-  
+
   return value;
 }
